@@ -1,5 +1,21 @@
+<style>
+    .bg-nav {
+        background-color: rgba(112, 64, 0, 1);
+    }
+
+    .navbar-brand, .nav-link {
+        color: rgba(255, 255, 255, 1);
+        transition: ease 0.2s;
+    }
+
+    .navbar-brand:hover, .nav-link:hover {
+        color: rgba(165, 165, 165, 1);
+    }
+
+</style>
+
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg bg-nav p-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.php">LOGO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -9,16 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="index.php" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Menu List</a>
+                        <a href="menu.php" class="nav-link">Menu List</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Users</a>
-                    </li>
-                    <li>
-                        <a href="/project_dbfood/addMenu.php" class="nav-link">Add menu</a>
+                        <a href="#" class="nav-link">Setting</a>
                     </li>
                 </ul>
             </div>
