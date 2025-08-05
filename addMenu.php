@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/package/dist/sweetalert2.min.js"></script>
-    <script src="./assets/package/dist/sweetalert2.min.css"></script>
+    <link rel="stylesheet" href="./assets/package/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <style>
@@ -73,7 +74,6 @@
     </div>
     </div>
 
-    <?php include './components/footer.php'; ?>
 </body>
 
 </html>

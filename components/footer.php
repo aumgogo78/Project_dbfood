@@ -1,4 +1,8 @@
-<div     class="bg-dark text-white py-4">
+<style>
+    
+</style>
+
+<div class="bg-dark text-white py-4 ft">
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-3">

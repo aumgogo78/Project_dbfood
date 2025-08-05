@@ -10,16 +10,12 @@ include './controls/idFood.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Console</title>
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Bootstrap js cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- SweetAlert2 CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- bootstrap icon -->
+    <title>Edit Menu</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/package/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="./assets/package/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <style>
@@ -31,14 +27,21 @@ include './controls/idFood.php';
             color: rgba(139, 139, 139, 1);
             transition: ease 0.2s;
         }
+        .mg {
+            margin-top: 10%;
+        }
+
+        .mgb {
+            margin-bottom: 10%;
+        }
     </style>
 </head>
 
 <body>
     <?php include './components/header.php'; ?>
 
-    <div class="d-flex container justify-content-center align-content-center" style="height: 100vh; max-width: 75%;">
-        <div class="" style="width: 100%;">
+    <div class="d-flex container justify-content-center align-content-center mgb" style="height: 100vh; max-width: 75%;">
+        <div class="mg" style="width: 100%;">
             <div class="col-md-12">
                 <div class="p-3 justify-content-center align-content-center">
                     <div class="p-4">
